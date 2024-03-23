@@ -1,0 +1,30 @@
+.button {
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin-top: 50px;
+    margin-right: 10px;
+  }
+
+.button-save {
+  background-color: #41B494;
+  color: white;
+  margin: 35px 20px 20px 15px;
+}
+
+.button-cancel {
+  background-color: white;
+  color: red;
+  margin-top: 20px;
+}
+
+.disabled-button {
+  pointer-events: none;
+}
+.disabled-api-button{
+  opacity: 0.5;
+  cursor: not-allowed !important;
+  pointer-events: none;
+}
